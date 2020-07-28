@@ -1,13 +1,10 @@
 ---
 layout: archive
-header:
-  overlay_image: /assets/images/Babka.jpg
 ---
 
 {{ content }}
 
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "All Posts" }}</h3>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
