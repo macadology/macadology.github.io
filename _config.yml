@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Jonathan Teo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Computational Biologist"
+  bio    : "Computational Biologist, Dynamical Models, Genome Institute of Singapore (GIS)"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
