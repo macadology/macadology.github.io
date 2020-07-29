@@ -1,0 +1,4 @@
+---
+permalink: /featured/
+title: "Featured"
+---

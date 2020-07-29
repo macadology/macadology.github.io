@@ -11,22 +11,24 @@
 {% endif %}
 
 {% unless page.header.overlay_color or page.header.overlay_image %}
+<!--
     <header>
       {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
       {% if page.read_time %}
         <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
     </header>
+-->
 {% endunless %}
 
+<!--Using edits from https://github.com/justinrummel/jr.com-mm-->
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
-    {% endif %}
-    {% if post.header.teaser %}
+    {% else %}
       <div class="archive__item-teaser">
         <a href="{{ post.url | relative_url }}"><img src=
           {% if teaser contains "://" %}
@@ -45,10 +47,38 @@
           <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
         {% endif %}
       </h2>
-      {% if post.read_time %}
-        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+
+
+      {% if post.categories.size > 0 %}
+        <p class="page__meta">
+          {% assign categories = post.categories | sort %}
+          {%- for categories in categories -%}
+              <span id=landingcat> {{ categories }} </span>
+          {%- endfor- %}
+        </p>
       {% endif %}
+
+      {% if post.date %}
+        <p class="page__meta">
+          <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Published: <span style="padding-right:15px"> {{ post.date | date: "%B %d, %Y" }} </span>
+        </p>
+      {% endif %}
+
+      {% if post.read_time %}
+        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> <span style="padding-right:10px">{% include read-time.html %}</span>
+        <span style="padding-right:10px">|</span> 
+        {% if post.tags.size > 0 %}
+            {% assign tags = post.tags | sort %}
+            {%- for tag in tags -%}
+                <span id=landingtag>#{{ tag }}</span>
+            {%- endfor- %}
+        {% endif %}
+        </p>
+      {% endif %}
+
+
       {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+
     </div>
   </article>
 </div>

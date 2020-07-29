@@ -13,7 +13,7 @@ layout: archive
 {% endif %}
 
 {% for post in posts %}
-  {% include archive-single.html%}
+  {% include archive-single.html %}
 {% endfor %}
 
 {% include paginator.html %}

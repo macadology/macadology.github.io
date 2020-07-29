@@ -57,12 +57,13 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-scholar
 
 author:
   name   : "Jonathan Teo"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Computational Biologist, Dynamical Models, 
-   Genome Institute of Singapore (GIS)"
+  avatar : "/assets/images/ProfilePic.jpg"
+  bio    : "Computational Systems Biologist <br/> Learning to model; <br/> Modeling to learn"
+  location : "Biopolis, Singapore"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -76,6 +77,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/macadology"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jonathan@macadology.com"
 #    - label: "Facebook"
 #      icon: "fab fa-fw fa-facebook-square"
 #      url: "https://facebook.com/justinrummel"
