@@ -16,10 +16,7 @@ header:
   teaser: /assets/images/2020/07-30/the-pinnacle-2640724_1920.jpg
   caption: "Photo by ScribblingGeek on pixabay"
 ---
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
-
+ {% include addon_scripts.html %}
 Suppose you buy a resale apartment with **80 years** of lease remaining today. 10 years later, the apartment appreciates by 25% or ~2.5% per year. Ignoring potential rental yield, 2.5% is a respectable rate of return especially since the apartment is also functioning as a living space for the duration.
 
 Now, suppose you buy a second apartment with **99 years** of lease at the same time, all else being equal (Same location, same sqft etc.) 10 years later, its value appreciates by 100%.

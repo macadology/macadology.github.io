@@ -19,4 +19,9 @@ header:
 toc: true
 toc_sticky: true
 ---
+ {% include addon_scripts.html %}
 ![](/assets/images/{{ page.year }}/{{ page.monthday }}/image.png)
+{% comment %}
+{% include_relative 07-30/annual_change.html %}
+{% endcomment %}
+\\[ \text{Annual change} = \frac{dln(y)}{dx} = \frac{1}{100-x} \\]
