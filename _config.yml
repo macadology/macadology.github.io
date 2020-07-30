@@ -16,9 +16,7 @@
 title: Macadology
 email: jonathan@macadology.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Exploring the methodology of using interpretable models to tease out meaningful insights from data. 
 twitter_username: macadology
 github_username: macadology
 minimal_mistakes_skin: default
@@ -131,3 +129,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-48304883-2"
+    anonymize_ip: false # default
