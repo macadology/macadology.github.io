@@ -48,7 +48,7 @@ Looking at the columns, the differential factors tend to cause depreciation wher
 
 {% include_relative 07-30/depreciation.html %}
 
-Notice that in real terms, the loss of value is constant every year assuming linear depreciation regardless of the number of remaining years. A million dollar property of 100 years lease will lose a [real](https://bit.ly/3hUqAXR) value of $10000 in the first year, $10000 in the last year in the 40th year, and $10000 in the last year. If we measured the relative rate of annual depreciation instead, it changes depending on the year. For example, the decrease from year 0 to 1 is ~1% whereas the decrease from year 99 to 100 is 100%. Mathematically,
+Notice that in real terms, the loss of value is constant every year assuming linear depreciation regardless of the number of remaining years. A million dollar property with 100 years lease will lose a [real](https://bit.ly/3hUqAXR) value of $10000 in the first year and $10000 in the last year. If we measured the relative rate of annual depreciation instead, it changes depending on the year. For example, the decrease from year 0 to 1 is ~1% whereas the decrease from year 99 to 100 is 100%. Mathematically,
 
 \\[ \text{Annual change} = \frac{dln(y)}{dx} = \frac{1}{100-x} \\]
 
