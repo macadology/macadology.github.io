@@ -21,7 +21,7 @@ Suppose you buy a resale apartment with **80 years** of lease remaining today. 1
 
 Now, suppose you buy a second apartment with **99 years** of lease at the same time, all else being equal (Same location, same sqft etc.) 10 years later, its value appreciates by 100%.
 
-Which apartment turned out to be a better investment? Why is there a difference in the annual rate of return? Could depreciation be the underlying cause of the discrepancy despite both apartments appreciating in value?
+Which apartment is the better investment? Why is there a difference in the annual rate of return? How does depreciation come into play?
 
 # Appreciation vs depreciation
 To reconcile how a depreciating asset could grow in value, it is important to distinguish the factors that cause properties to appreciate and/or depreciate.
