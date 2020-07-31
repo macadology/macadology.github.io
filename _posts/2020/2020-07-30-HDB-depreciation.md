@@ -21,10 +21,10 @@ Suppose you buy a resale apartment with **80 years** of lease remaining today. 1
 
 Now, suppose you buy a second apartment with **99 years** of lease at the same time, all else being equal (Same location, same sqft etc.) 10 years later, its value appreciates by 100%.
 
-Which apartment is the better investment? Why is there a difference in the annual rate of return? How does depreciation come into play?
+The second apartment is clearly the better investment. But why is there a difference in the annual rate of return if both apartments are effectively the same? How does depreciation come into play?
 
 # Appreciation vs depreciation
-To reconcile how a depreciating asset could grow in value, it is important to distinguish the factors that cause properties to appreciate and/or depreciate.
+To reconcile how a depreciating asset could grow in value, it is important to distinguish the underlying factors that cause properties to appreciate and/or depreciate.
 
 | Depreciation           | Appreciation                |
 |------------------------|-----------------------------|
@@ -48,23 +48,21 @@ Looking at the columns, the differential factors tend to cause depreciation wher
 
 {% include_relative 07-30/depreciation.html %}
 
-Notice that in real terms, the loss of value is constant every year assuming linear depreciation regardless of the number of remaining years. A million dollar property with 100 years lease will lose a [real](https://bit.ly/3hUqAXR) value of $10000 in the first year and $10000 in the last year. If we measured the relative rate of annual depreciation instead, it changes depending on the year. For example, the decrease from year 0 to 1 is ~1% whereas the decrease from year 99 to 100 is 100%. Mathematically,
+Notice that in real terms, the loss of value is constant every year regardless of the number of remaining years if we assume depreciation is linear. A million dollar property with 100 years lease will lose a [real](https://bit.ly/3hUqAXR) value of $10000 in the first year and $10000 in the last year. If we measured the relative rate of annual depreciation instead, it changes depending on the year. For example, the decrease from year 0 to 1 is ~1% whereas the decrease from year 99 to 100 is 100%. Mathematically,
 
 \\[ \text{Annual change} = \frac{dln(y)}{dx} = \frac{1}{100-x} \\]
 
-The blue line represents the annual depreciation. It starts out at a low rate of 1% and increases gradually until it reaches 100%. The red line represents a constant rate of appreciation of 2%. A crossover happens at year 50, when annual depreciation equals appreciation.
+The blue line represents the annual depreciation. It starts out at a low rate of 1% and increases gradually until it reaches 100%. The red line represents a constant appreciation rate of 2%. A crossover happens at year 50, when annual depreciation equals appreciation.
 
 {% include_relative 07-30/annual_change.html %}
 
-If we combine both rates and calculate the change in value over the term of the lease (see figure below), we see an initial rise due to capital appreciation (Double click on the blue line in the legend). However, the rate of depreciation surpasses appreciation at year 50 and starts eroding the value of the property until it eventually decays to zero.
+If we sum both rates and calculate the change in value over the term of the lease (see figure below), we see an initial rise due to capital appreciation (Double click on the blue line in the legend). However, the rate of depreciation surpasses appreciation at year 50 and starts eroding the value of the property until it eventually decays to zero.
 
 {% include_relative 07-30/depreciation_w_appreciation.html %}
 
 Freehold apartments on the other hand retain their value well because despite the depreciation from wear and tear, they are built on land that generally grows in value.
 
-In summary, HDB properties will depreciate over time as their leases run out. The depreciation is not immediately clear if we were to examine only the historical prices of a property because of confounding factors such as capital appreciation. In fact, we may even arrive at the erroneous conclusion that depreciation is a myth just because prices did not drop.
-
-To calculate the rate of depreciation independent of appreciation, we should instead compare prices between apartments that are similar in every way except for their lease. Given the price of an apartment with 99 years of lease, if we know the price of similar apartments with 90 years, 80 years and so on, we can fit a curve to calculate the rate of depreciation and answer the following questions:
+In summary, HDB properties will depreciate over time as their leases run out. The depreciation is not immediately clear if we examine only the historical prices of a property because of confounding factors such as capital appreciation. To calculate the true rate of depreciation independent of appreciation, we should instead compare prices between apartments that are similar in every way except for their lease. Given the price of an apartment with 99 years of lease, if we know the price of similar apartments with 90 years, 80 years and so on, we can fit a curve to calculate the rate of depreciation and answer the following questions:
 1. Do HDB apartments depreciate linearly or non-linearly?
 2. If the depreciation is non-linear, what is the discount rate?
 
