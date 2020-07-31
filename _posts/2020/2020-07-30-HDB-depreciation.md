@@ -62,7 +62,7 @@ If we sum both rates and calculate the change in value over the term of the leas
 
 Freehold apartments on the other hand retain their value well because despite the depreciation from wear and tear, they are built on land that generally grows in value.
 
-In summary, HDB properties will depreciate over time as their leases run out. The depreciation is not immediately clear if we examine only the historical prices of a property because of confounding factors such as capital appreciation. To calculate the true rate of depreciation independent of appreciation, we should instead compare prices between apartments that are similar in every way except for their lease. Given the price of an apartment with 99 years of lease, if we know the price of similar apartments with 90 years, 80 years and so on, we can fit a curve to calculate the rate of depreciation and answer the following questions:
+In summary, HDB properties will depreciate over time as their leases run out. The depreciation is not immediately obvious if we examine only the historical prices of a property because of confounding factors such as capital appreciation. To calculate the true rate of depreciation, we should instead compare prices between apartments that are similar in every way except for their lease. Given the price of an apartment with 99 years of lease, if we know the price of similar apartments with 90 years, 80 years and so on, we can fit a curve to calculate the rate of depreciation and answer the following questions:
 1. Do HDB apartments depreciate linearly or non-linearly?
 2. If the depreciation is non-linear, what is the discount rate?
 
