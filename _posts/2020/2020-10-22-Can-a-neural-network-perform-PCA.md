@@ -1,5 +1,5 @@
 ---
-title: "Cana neural network perform PCA? Part 1"
+title: "Can a neural network perform PCA?"
 date: 2020-10-22
 last_modified_at: 2020-10-22
 year: 2020

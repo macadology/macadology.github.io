@@ -25,7 +25,7 @@ repository: macadology/macadology.github.io
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.20.2
 
 # Outputting
 permalink: /:categories/:title/
