@@ -11,15 +11,13 @@ tags:
   - Neural Network
   - PCA
 header:
-  overlay_image: /assets/images/Babka.jpg
-  overlay_filter: 0.15
-  image: /assets/images/2020/07-20/image.jpg
-  teaser: /assets/images/2020/07-20/image.jpg
-  caption: ""
+    image: /assets/images/2020/10-22/Autoencoder-01.png
+    teaser: /assets/images/2020/10-22/Autoencoder-01.png
+    caption: "Figure by jonteo"
 toc: true
 toc_sticky: true
 ---
- {% include addon_scripts.html %}
+{% include addon_scripts.html %}
 ![](/assets/images/{{ page.year }}/{{ page.monthday }}/image.png)
 {% comment %}
 {% include_relative 07-30/annual_change.html %}
