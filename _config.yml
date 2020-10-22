@@ -26,6 +26,7 @@ repository: macadology/macadology.github.io
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -60,7 +61,7 @@ plugins:
 author:
   name   : "Jonathan Teo"
   avatar : "/assets/images/ProfilePic.jpg"
-  bio    : "Computational Systems Biologist <br/> Learning to model; <br/> Modeling to learn"
+  bio    : "Computational Systems Biologist <br/> Data Scientist <br/> Learning to model; <br/> Modeling to learn"
   location : "Biopolis, Singapore"
   links:
     - label: "Website"
