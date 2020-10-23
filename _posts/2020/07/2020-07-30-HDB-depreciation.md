@@ -46,7 +46,7 @@ Nevertheless, the effects of depreciation must be present because both propertie
 
 Looking at the columns, the differential factors tend to cause depreciation whereas the common factors tend to cause appreciation. To simplify the discussion, we shall assume that the rate of appreciation, regardless of factors involved, is the same across all apartments with the same features. The rate of depreciation on the other hand varies depending on the remaining lease. Below is a curve showing the rate of depreciation assuming either linear or non-linear depreciation.
 
-{% include_relative 07-30/depreciation.html %}
+{% include_relative 30/depreciation.html %}
 
 Notice that in real terms, the loss of value is constant every year regardless of the number of remaining years if we assume depreciation is linear. A million dollar property with 100 years lease will lose a [real](https://bit.ly/3hUqAXR) value of $10000 in the first year and $10000 in the last year. If we measured the relative rate of annual depreciation instead, it changes depending on the year. For example, the decrease from year 0 to 1 is ~1% whereas the decrease from year 99 to 100 is 100%. Mathematically,
 
@@ -54,11 +54,11 @@ Notice that in real terms, the loss of value is constant every year regardless o
 
 The blue line represents the annual depreciation. It starts out at a low rate of 1% and increases gradually until it reaches 100%. The red line represents a constant appreciation rate of 2%. A crossover happens at year 50, when annual depreciation equals appreciation.
 
-{% include_relative 07-30/annual_change.html %}
+{% include_relative 30/annual_change.html %}
 
 If we sum both rates and calculate the change in value over the term of the lease (see figure below), we see an initial rise due to capital appreciation (Double click on the blue line in the legend). However, the rate of depreciation surpasses appreciation at year 50 and starts eroding the value of the property until it eventually decays to zero.
 
-{% include_relative 07-30/depreciation_w_appreciation.html %}
+{% include_relative 30/depreciation_w_appreciation.html %}
 
 Freehold apartments on the other hand retain their value well because despite the depreciation from wear and tear, they are built on land that generally grows in value.
 
