@@ -3,5 +3,5 @@ main:
 #    url: /publications/
   - title: "Contact"
     url: /contact/
-#  - title: "CV"
-#    url: /CV/
+  - title: "CV"
+    url: https://macadology.com/markdown-cv
