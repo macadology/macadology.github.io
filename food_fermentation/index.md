@@ -6,6 +6,6 @@ sitemap: false
 # Food Fermentation - Figures
 {% for image in site.static_files %}
 {% if image.path contains 'food_fermentation/' %}
-[{{ image.path }}](ç{{ image.path }})
+[{{ image.path }}]({{ image.path }})
 {% endif %}
 {% endfor %}
