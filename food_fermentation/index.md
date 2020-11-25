@@ -3,9 +3,9 @@ title: "Food Fermentation"
 excerpt: "Food Fermentation"
 sitemap: false
 ---
-# Plotly Figures
+# Food Fermentation - Figures
 {% for image in site.static_files %}
 {% if image.path contains 'food_fermentation/' %}
-[{{ image.basename }}]({{ image.path }})
+[{{ image.path }}](ç{{ image.path }})
 {% endif %}
 {% endfor %}
